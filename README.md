@@ -3,6 +3,6 @@
       sudo -u postgres psql
       postgres=# create database spring_microservice_db;
       postgres=# create user springuser with encrypted password 'springpass';
-      postgres=# grant all privileges on database spring-microservice-db to springuser;
+      postgres=# grant all privileges on database spring_microservice_db to springuser;
       postgres=# alter database spring_microservice_db owner to springuser;
 
