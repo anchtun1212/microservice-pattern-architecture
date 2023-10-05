@@ -1,0 +1,49 @@
+07:02:28.051  INFO 1236 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17 on timpamungkas with PID 1236 (D:\workspace\eclipse\microservice-pattern\microservice-chassis\bin\main started by USER in D:\workspace\eclipse\microservice-pattern\microservice-chassis)
+07:02:28.057 DEBUG 1236 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.6.2, Spring v5.3.14
+07:02:28.057  INFO 1236 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to default profiles: default
+07:02:32.127  INFO 1236 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 4.909 seconds (JVM running for 5.847)
+07:04:09.746  INFO 3084 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17 on timpamungkas with PID 3084 (D:\workspace\eclipse\microservice-pattern\microservice-chassis\bin\main started by USER in D:\workspace\eclipse\microservice-pattern\microservice-chassis)
+07:04:09.752 DEBUG 3084 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.6.2, Spring v5.3.14
+07:04:09.752  INFO 3084 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to default profiles: default
+07:04:13.730  WARN 3084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+07:04:14.102  WARN 3084 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+07:04:14.160 ERROR 3084 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+07:04:24.129 DEBUG 1236 --- [http-nio-8004-exec-1] c.c.m.api.server.chassis.LogApi          : demoLog() starts
+07:04:24.844 DEBUG 1236 --- [http-nio-8004-exec-1] c.c.m.api.server.chassis.LogApi          : demoLog() ends
+07:09:32.971  WARN 1236 --- [http-nio-8004-exec-5] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "param_one must be started with 'microservice'"]
+10:08:02.752  INFO 1660 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17 on timpamungkas with PID 1660 (D:\workspace\eclipse\microservice-pattern\microservice-chassis\bin\main started by USER in D:\workspace\eclipse\microservice-pattern\microservice-chassis)
+10:08:02.759 DEBUG 1660 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.6.2, Spring v5.3.14
+10:08:02.759  INFO 1660 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to default profiles: default
+10:08:07.212  INFO 1660 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 5.435 seconds (JVM running for 6.71)
+10:09:03.366  WARN 1660 --- [http-nio-8004-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: "abcde"]
+10:09:25.743  WARN 1660 --- [http-nio-8004-exec-5] java.lang.Exception                      : Wrong input on param_two
+10:09:25.745  WARN 1660 --- [http-nio-8004-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.course.microservice.exception.BadInputRequestException: param_two is too long]
+10:09:37.839  WARN 1660 --- [http-nio-8004-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.io.FileNotFoundException: a-not-exists-file.txt (The system cannot find the file specified)]
+12:31:37.654  INFO 11968 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17 on timpamungkas with PID 11968 (D:\workspace\eclipse\microservice-pattern\microservice-chassis\bin\main started by USER in D:\workspace\eclipse\microservice-pattern\microservice-chassis)
+12:31:37.661 DEBUG 11968 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.6.2, Spring v5.3.14
+12:31:37.661  INFO 11968 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to default profiles: default
+12:31:41.988  INFO 11968 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 5.237 seconds (JVM running for 6.276)
+10:24:59.588  INFO 359429 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17.0.8.1 on support-ThinkPad-T490 with PID 359429 (/home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis/target/classes started by mohammedayman in /home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis)
+10:24:59.591  INFO 359429 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to 1 default profile: "default"
+10:24:59.626  INFO 359429 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:24:59.627  INFO 359429 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:24:59.736  INFO 359429 --- [restartedMain] o.s.c.a.ConfigurationClassParser         : Properties location [classpath:microservice.yml] not resolvable: class path resource [microservice.yml] cannot be opened because it does not exist
+10:24:59.737  INFO 359429 --- [restartedMain] o.s.c.a.ConfigurationClassParser         : Properties location [file:/conf/microservice.yml] not resolvable: /conf/microservice.yml (No such file or directory)
+10:24:59.737  INFO 359429 --- [restartedMain] o.s.c.a.ConfigurationClassParser         : Properties location [file:c:/conf/microservice.yml] not resolvable: c:/conf/microservice.yml (No such file or directory)
+10:25:00.191  INFO 359429 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5007b775-9fd5-3dde-91d5-e8c666f1d5df
+10:25:00.641  INFO 359429 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8004 (http)
+10:25:00.647  INFO 359429 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+10:25:00.647  INFO 359429 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+10:25:00.693  INFO 359429 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+10:25:00.693  INFO 359429 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+10:25:01.042  INFO 359429 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ba5b5c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e3e66fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@73464aac, org.springframework.security.web.header.HeaderWriterFilter@47ce2c08, org.springframework.security.web.authentication.logout.LogoutFilter@4657356f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1220d00c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17949ee8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11d6421e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4024d390, org.springframework.security.web.session.SessionManagementFilter@1be414a7, org.springframework.security.web.access.ExceptionTranslationFilter@5eb439e0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a4cdc83]
+10:25:01.749  INFO 359429 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+10:25:01.837  INFO 359429 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8004 (http) with context path ''
+10:25:01.857  INFO 359429 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 2.601 seconds (JVM running for 3.115)
+10:25:16.705  INFO 359429 --- [http-nio-8004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:25:16.705  INFO 359429 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+10:25:16.706  INFO 359429 --- [http-nio-8004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+10:25:25.369  INFO 359429 --- [http-nio-8004-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 154 ms
+10:27:59.521  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+10:27:59.534  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+10:27:59.536  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
