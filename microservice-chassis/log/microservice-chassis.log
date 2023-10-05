@@ -47,3 +47,21 @@
 10:27:59.521  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 10:27:59.534  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 10:27:59.536  INFO 359429 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+10:42:21.200  INFO 360689 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17.0.8.1 on support-ThinkPad-T490 with PID 360689 (/home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis/target/classes started by mohammedayman in /home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis)
+10:42:21.200 DEBUG 360689 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.7.16, Spring v5.3.30
+10:42:21.201  INFO 360689 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to 1 default profile: "default"
+10:42:23.240  INFO 360689 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 2.419 seconds (JVM running for 2.822)
+11:42:13.557 DEBUG 360689 --- [http-nio-8004-exec-4] c.c.m.api.server.chassis.LogApi          : demoLog() starts
+11:42:14.042 DEBUG 360689 --- [http-nio-8004-exec-4] c.c.m.api.server.chassis.LogApi          : demoLog() ends
+11:42:22.125 DEBUG 360689 --- [http-nio-8004-exec-5] c.c.m.api.server.chassis.LogApi          : demoLog() starts
+11:42:22.440 DEBUG 360689 --- [http-nio-8004-exec-5] c.c.m.api.server.chassis.LogApi          : demoLog() ends
+11:42:23.706 DEBUG 360689 --- [http-nio-8004-exec-6] c.c.m.api.server.chassis.LogApi          : demoLog() starts
+11:42:24.278 DEBUG 360689 --- [http-nio-8004-exec-6] c.c.m.api.server.chassis.LogApi          : demoLog() ends
+11:46:52.489  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17.0.8.1 on support-ThinkPad-T490 with PID 363610 (/home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis/target/classes started by mohammedayman in /home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis)
+11:46:52.490 DEBUG 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.7.16, Spring v5.3.30
+11:46:52.490  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to 1 default profile: "default"
+11:46:54.460  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 2.276 seconds (JVM running for 2.785)
+11:47:22.903  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Starting MicroserviceChassisApplication using Java 17.0.8.1 on support-ThinkPad-T490 with PID 363610 (/home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis/target/classes started by mohammedayman in /home/mohammedayman/git/microservice-pattern-architecture/microservice-chassis)
+11:47:22.903 DEBUG 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Running with Spring Boot v2.7.16, Spring v5.3.30
+11:47:22.903  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : No active profile set, falling back to 1 default profile: "default"
+11:47:23.609  INFO 363610 --- [restartedMain] c.c.m.MicroserviceChassisApplication     : Started MicroserviceChassisApplication in 0.747 seconds (JVM running for 31.934)
