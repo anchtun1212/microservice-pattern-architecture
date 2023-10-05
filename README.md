@@ -6,3 +6,6 @@
       postgres=# grant all privileges on database spring_microservice_db to springuser;
       postgres=# alter database spring_microservice_db owner to springuser;
 
+# Script
+
+Execute: `01-postgres-schema.sql`
