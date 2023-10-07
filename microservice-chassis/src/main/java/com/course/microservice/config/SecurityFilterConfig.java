@@ -14,6 +14,9 @@ public class SecurityFilterConfig {
 		var registrationBean = new FilterRegistrationBean<CheckEmailFilter>();
 
 		registrationBean.setFilter(new CheckEmailFilter());
+		// For all request to path started with “/api/chassis/security/email/”, 
+		// it must have http header “X-Developer-Email” and contains valid email.
+		// see CheckEmailFilter
 		registrationBean.addUrlPatterns("/api/chassis/security/email/*");
 
 		return registrationBean;
