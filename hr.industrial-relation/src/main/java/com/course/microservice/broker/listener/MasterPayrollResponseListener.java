@@ -17,6 +17,7 @@ public class MasterPayrollResponseListener {
 	@Autowired
 	private TerminationAsyncService masterPayrollService;
 
+	//@KafkaListener(topics = "t.masterpayroll.response", autoStartup = "${listen.auto.start:false}")
 	@KafkaListener(topics = "t.masterpayroll.response")
 	public void listenMasterPayrollResponse(MasterPayrollResponseMessage message) {
 		LOG.debug("[Async-listen] Start listening from message broker, response from disabling master payroll");

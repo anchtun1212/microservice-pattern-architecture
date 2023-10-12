@@ -21,8 +21,7 @@ public class TerminationService {
 	private PayrollClient payrollClient;
 
 	public boolean approveTermination(String employeeId, LocalDate terminationDate) {
-		LOG.debug("[Sync] Simulating termination approval for employee : {}, termination date : {}", employeeId,
-				terminationDate);
+		LOG.debug("[Sync] Simulating termination approval for employee : {}, termination date : {}", employeeId, terminationDate);
 		LOG.debug("[Sync] Updating data on industrial relation microservice, termination status : PENDING");
 
 		try {
