@@ -42,7 +42,7 @@ services:
   #    - "./postgres/docker-entrypoint-initdb.d/:/docker-entrypoint-initdb.d/"
   #  command: postgres -c config_file=/etc/postgresql/postgresql.conf
   #  environment:
-  #   POSTGRES_PASSWORD: postgres
+  #    POSTGRES_PASSWORD: postgres
   axon:
     image: axoniq/axonserver:4.5.9
     container_name: axon
