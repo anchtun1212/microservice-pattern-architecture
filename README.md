@@ -12,3 +12,13 @@ Execute: `01-postgres-schema.sql`
 |     Command       |     Description          |
 | ------------- | ------------- |
 | "mvn spring-boot:run -Dspring-boot.run.jvmArguments='-Dserver.port=9993'" | How to configure port for a Spring Boot application on Runtime |
+
+# Debezium Config
+      sudo nano /etc/postgresql/14/main/postgresql.conf
+      and add:
+      # Debezium
+      wal_level = logical             
+      max_wal_senders = 5             
+      max_replication_slots = 5
+      listen_addresses = '*'
+      search_path = '"$user",public'
