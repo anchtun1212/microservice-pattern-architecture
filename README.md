@@ -6,6 +6,7 @@ Execute: `01-postgres-schema.sql`
 - Apache Kafka - https://kafka.apache.org/
 - Consul - https://www.consul.io/
 - Debezium - https://debezium.io/
+- Axon - https://www.axoniq.io/
 
 ## Some Commands
 
