@@ -7,6 +7,7 @@ Execute: `01-postgres-schema.sql`
 - Consul - https://www.consul.io/
 - Debezium - https://debezium.io/
 - Axon - https://www.axoniq.io/
+- Redis - http://redis.io/ 
 
 ## Some Commands
 
