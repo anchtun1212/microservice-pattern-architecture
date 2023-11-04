@@ -8,9 +8,9 @@ networks:
  kong-net:
   name: kong-net
   driver: bridge
-#  ipam:
-#    config:
-#      - subnet: 172.1.1.0/24
+  ipam:
+    config:
+      - subnet: 172.1.1.0/24
 
 services:
 
@@ -61,7 +61,7 @@ services:
     restart: unless-stopped
     networks:
       kong-net:
-        ipv4_address: 192.168.79.56
+        ipv4_address: 172.1.1.40
     environment:
       KONG_DATABASE: postgres
       KONG_PG_HOST: kong-database
