@@ -1,0 +1,3 @@
+sentry:
+  dsn: "https://a9cb5fe5badb4e5f885f7d9a725b1455@o148683.ingest.sentry.io/2289372"
+  environment: local
