@@ -9,6 +9,7 @@ Execute: `01-postgres-schema.sql`
 - Axon - https://www.axoniq.io/
 - Redis - http://redis.io/
 - yauaa (User-Agent Analyzer) - https://yauaa.basjes.nl/
+- Vault by HashiCorp - https://www.vaultproject.io/
 
 ## Some Commands
 
