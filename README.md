@@ -8,7 +8,7 @@ Execute: `01-postgres-schema.sql`
 - Debezium - https://debezium.io/
 - Axon - https://www.axoniq.io/
 - Redis - http://redis.io/
-- yauaa (Useragent Analyzer) - https://yauaa.basjes.nl/
+- yauaa (User-Agent Analyzer) - https://yauaa.basjes.nl/
 
 ## Some Commands
 
