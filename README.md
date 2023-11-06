@@ -17,6 +17,7 @@ Execute: `01-postgres-schema.sql`
 |     Command       |     Description          |
 | ------------- | ------------- |
 | "mvn spring-boot:run -Dspring-boot.run.jvmArguments='-Dserver.port=9993'" | How to configure port for a Spring Boot application on Runtime |
+| "sudo vault server -config=/etc/vault.d/vault.hcl" | Start Vault |
 
 # Debezium Config
       /etc/postgresql/14/main/postgresql.conf
