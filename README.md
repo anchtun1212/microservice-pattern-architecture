@@ -11,6 +11,7 @@ Execute: `01-postgres-schema.sql`
 - yauaa (User-Agent Analyzer) - https://yauaa.basjes.nl/
 - Vault by HashiCorp - https://www.vaultproject.io/
 - Install Vault - https://developer.hashicorp.com/vault/downloads?product_intent=vault
+- Sentry - https://sentry.io/
 
 ## Some Commands
 
