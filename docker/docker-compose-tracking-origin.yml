@@ -40,8 +40,7 @@ services:
       - elasticsearch
     volumes:
     - ./elk/logstash/pipeline:/usr/share/logstash/pipeline:ro
-    #- d:/development/logstash/api-composition.log:/usr/share/logstash/api-composition.log
-    - /home/mohammedayman/log/logstash/api-composition.log:/usr/share/logstash/api-composition.log
+    - d:/development/logstash/api-composition.log:/usr/share/logstash/api-composition.log
   zipkin:
     image: openzipkin/zipkin:2
     container_name: zipkin
