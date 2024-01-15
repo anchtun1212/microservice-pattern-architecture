@@ -1,0 +1,29 @@
+logging:
+  pattern:
+    console: "[Spring Google] %clr(%d{HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr(---){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+  
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: microservice-google-cloud
+  main:
+    banner-mode: OFF
+  jackson:
+    default-property-inclusion: non-null
+  datasource:
+    username: ${sm://spring-google-cloud-postgres-username}
+    password: ${sm://spring-google-cloud-postgres-password}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  sleuth:
+    sampler:
+      probability: 1.0
+  cloud:
+    gcp:
+      sql:
+        instance-connection-name: ${sm://spring-google-cloud-sql-instance-connection-name}
+        database-name: ${sm://spring-google-cloud-sql-database-name}
