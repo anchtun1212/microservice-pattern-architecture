@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.8</spring-cloud.version>
-		<spring-cloud-gcp.version>2.0.7</spring-cloud-gcp.version>
+		<spring-cloud-gcp.version>3.5.3</spring-cloud-gcp.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -80,6 +80,7 @@
 		<dependency>
 			<groupId>com.google.cloud</groupId>
 			<artifactId>google-cloud-logging-logback</artifactId>
+			<version>0.130.16-alpha</version>
 		</dependency>	
 		
 		<dependency>
